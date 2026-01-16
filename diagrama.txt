@@ -1,0 +1,42 @@
+MODELO DE GRAFOS - SERVIÇO DE STREAMING
+========================================
+
+User  
+WATCHED (rating):  
+Movie  
+
+User  
+WATCHED (rating):  
+Series  
+
+Actor  
+ACTED_IN (role):  
+Movie  
+
+Actor  
+ACTED_IN (role):  
+Movie  
+
+Director  
+DIRECTED  
+Movie/Series  
+
+Director  
+DIRECTED  
+Series  
+
+Movie  
+IN_GENRE  
+Genre  
+
+Series  
+IN_GENRE  
+Genre
+
+========================================
+RESUMO DO MODELO:
+• 6 tipos de nós
+• 4 tipos de relacionamentos
+• 43 nós totais
+• 56 relacionamentos
+========================================
